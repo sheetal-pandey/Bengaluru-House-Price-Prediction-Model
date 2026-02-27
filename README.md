@@ -1,8 +1,8 @@
-Project Overview:
+## Project Overview:
 
 The real estate market in Bengaluru varies significantly by locality. This project uses supervised machine learning techniques to build a predictive model that estimates house prices based on historical housing data.
 
-The goal is to:
+## The goal is to:
 
 Perform data cleaning and preprocessing
 
@@ -14,9 +14,9 @@ Train and evaluate regression models
 
 Deploy the model using a web interface (if applicable)
 
-Dataset Features:
+## Dataset Features:
 
-Typical features used:
+## Typical features used:
 
 location
 
@@ -28,7 +28,7 @@ bhk
 
 price
 
-Additional feature engineering:
+## Additional feature engineering:
 
 Price per square foot
 
@@ -36,7 +36,7 @@ Handling outliers
 
 One-hot encoding for categorical variables
 
-Tech Stack:
+## Tech Stack:
 
 Python
 
@@ -50,7 +50,7 @@ Flask / Streamlit (Deployment, if applicable)
 
 Jupyter Notebook
 
- Model Used:
+ ## Model Used:
 
 Linear Regression
 
@@ -66,9 +66,9 @@ GridSearchCV
 
 R² score evaluation
 
- Model Performance:
+## Model Performance:
 
-Example:
+## Example:
 
 Model	R² Score
 Linear Regression	0.84
@@ -77,7 +77,7 @@ Decision Tree	0.78
 
 (Replace with your actual results)
 
- How to Run the Project:
+## How to Run the Project:
 git clone https://github.com/your-sheetal-pandey/bengaluru-house-price-prediction.git
 cd bengaluru-house-price-prediction
 pip install -r requirements.txt
